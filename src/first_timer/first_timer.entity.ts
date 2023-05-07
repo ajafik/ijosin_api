@@ -11,9 +11,15 @@ export class FirstTimer {
   @Column()
   othernames: string;
 
+  @Column('text')
+  address: string;
+
   @Column()
   email: string;
 
   @Column()
   phone: string;
+
+  @Column()
+  isActive: boolean;
 }

@@ -58,6 +58,18 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
+## Migration
+
+```bash
+# generate migration
+$ npm run migration:generate
+
+# run migrations
+$ npm run migration:run
+
+
+```
+
 ## Features
 
 - Main Module
