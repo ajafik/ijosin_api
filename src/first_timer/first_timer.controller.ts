@@ -10,7 +10,9 @@ import {
 } from '@nestjs/common';
 import { FirstTimerService } from './first_timer.service';
 import { FirstTimer } from './first_timer.entity';
+import { ApiTags } from '@nestjs/swagger';
 
+@ApiTags('First Timer Member')
 @Controller('first-timer')
 export class FirstTimerController {
   constructor(private readonly firstTimerService: FirstTimerService) {}
